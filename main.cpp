@@ -1,3 +1,9 @@
+#include <iostream>
+#include <cstring>
+
+
+using namespace std;
+
 
 int dis_find(const char *t , const char *a) {
 
@@ -40,3 +46,13 @@ int dis_find(const char *t , const char *a) {
   }
 
 }///..
+
+
+
+int main() {
+
+  char test[] = "victor";              /// test array.....................
+
+  cout<<dis_find(test , "ctor")<<endl;           ////  displays the position of the last character (r) if "ctor"  was found
+
+}
